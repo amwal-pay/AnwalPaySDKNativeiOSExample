@@ -6,7 +6,7 @@
 	<dict>
 		<key>FirebaseCrashlytics_Privacy.bundle/Info.plist</key>
 		<data>
-		sc24ZZjNtdTd8S7BRjF/38Ku3Ow=
+		2SiHW8vb4oV/d/Z6qiufWA3uQxE=
 		</data>
 		<key>FirebaseCrashlytics_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/FirebaseCrashlytics-Swift.h</key>
 		<data>
-		vRboszY+UCSEgRjMHKBer0AbFDw=
+		b4NvE7G5hPv+sHMidcq4dQ7FllQ=
 		</data>
 		<key>Headers/FirebaseCrashlytics-umbrella.h</key>
 		<data>
@@ -42,55 +42,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tX3QPboJK+2+00xZeT8YdjgoFIs=
+		Q1F6oTXcF16ozqlIC3Z9fwGfUcA=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		RQSZh0tXDHTq6ap8IcWXw572kfY=
+		iYfR/8+KCY2fSP8G3Qn9i6TiSUE=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		sYplIO/O2VZpjFXa71Pj5XPizW0=
+		rgHW8pl+lphZzDRV0UO9ismowTQ=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		SVqQJvbMX0Ax7fxR6amrw1oS8Dc=
+		3FBjFdnarNdT/BQtNVnLJn0Uf94=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		scmrUahxprPgzD4D6UZWG3ipYY4=
+		0vXakQi8/QH+M+3xnPXwtdh5Vq0=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		DoNhiGl1BzaR5vq+ijf21Vbm/2k=
+		z/DgE+5aseWhv8GzVdBq8jgzS4w=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		scmrUahxprPgzD4D6UZWG3ipYY4=
+		0vXakQi8/QH+M+3xnPXwtdh5Vq0=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GQf6AY4Kfw3O6VV/JwGT2Pm7Isw=
+		ZiykRNgik3PvuLdGFC9IH6+hsAQ=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		SVqQJvbMX0Ax7fxR6amrw1oS8Dc=
+		3FBjFdnarNdT/BQtNVnLJn0Uf94=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6JaWghdsnIjbvn+lNwvI7m6ZKSg=
+		4+QDgaCBqd71h2sghTix7uTGrIk=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		RsAOz6CwhksfqRUuFF7pyivsNqo=
+		llHNulknt0sKrqPJEhONUUWKtqw=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6JaWghdsnIjbvn+lNwvI7m6ZKSg=
+		4+QDgaCBqd71h2sghTix7uTGrIk=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		J1ZpfpQNMoU2PAvIMqVNLFC1ESE=
+		NlR0xm1Fe18BNLqScYT89ox+O+s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BctQfXqbR5vGxsdAUVZ8hETi/qEtOaz3OiucB9aAT74=
+			rPO4C8SVwJX9lAfuN3EBxxXq2Wa1k4act4GjLn1SmDc=
 			</data>
 		</dict>
 		<key>FirebaseCrashlytics_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -145,7 +145,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rI/brShz7J0CMP55yJacVThZQ4/UZuONZBnzgDtdDc4=
+			hpY+64R4q4N4Y/b+MFXWG1AJw65duJaN3wpcanZtTy4=
 			</data>
 		</dict>
 		<key>Headers/FirebaseCrashlytics-umbrella.h</key>
@@ -166,84 +166,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oaA14dSlk2gZMaRmG4ezGE9uSfZSiArAykgZzvY+Tu4=
+			z/oShOVDxtkfmIs91U1/Xx4az9OxkX7gu/Dnv00++Mo=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SLlAIQf1ffhl2zL811SBlEvuFvICemC2Y9Y4x1TJpS8=
+			hmguk/ZK9iGQzEXGn1nfXN97iUahJ6AgyoCIXgOdzyU=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OCuQ6q+thivLHKRNfI0CFE39SSqfZf3p3LqRKMCpWrg=
+			VORoEVUlQSMqcm6WdDK/RHZ9iNwNXFkUZLJIAryril4=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JVZa1s5tCC1+29vFOCrMqpMEag6gzfcrqlFgtOFSLQU=
+			ifVdIYBjRWXgqB1KE0rU4u1subg9ifTNX0eiTqAdlKM=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EGCd1iBA3Ys1Pcg/W1uyhKTCCBnR/go3SKf5CqlnnLQ=
+			kdZF8IU13gCFLocgG90Nu1C1axM6xscf/mDbHwqAiAw=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JVZa1s5tCC1+29vFOCrMqpMEag6gzfcrqlFgtOFSLQU=
+			ifVdIYBjRWXgqB1KE0rU4u1subg9ifTNX0eiTqAdlKM=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ul2qBa1OyDnOz5eQEUzWbRAoBDuG6isAN8n6ii6nGIQ=
+			2PgMyENmFuzbe5bg1W7u+dRyiHVtDGjZu0eWsn2/lrQ=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OCuQ6q+thivLHKRNfI0CFE39SSqfZf3p3LqRKMCpWrg=
+			VORoEVUlQSMqcm6WdDK/RHZ9iNwNXFkUZLJIAryril4=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2bQUUe0pnc+xXHvoPmtEFJSk7pmjtN35dT8B9qCevM0=
+			JvrE/ZL6JlX1S0v4hvZvkOeIV2x2yv0CJ17t7JDO3YU=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gohrnfXfTOdpYR32ocgCWlEu0Sye7ZVz2uMQ+IvTGVk=
+			5v3Aw2fGwQ0rPjFW7qFQfM+GmxHLafZVw6qCp/mfHLY=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2bQUUe0pnc+xXHvoPmtEFJSk7pmjtN35dT8B9qCevM0=
+			JvrE/ZL6JlX1S0v4hvZvkOeIV2x2yv0CJ17t7JDO3YU=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S4T41q463fGpmYk7FSTOyppJ82pupmqA+WQlFkBRWGM=
+			A13MI2551NsBTbtfW2nAeqzLGDNtEp6enKn1uo2bT2w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

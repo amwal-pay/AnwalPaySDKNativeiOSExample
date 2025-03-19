@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "FirebaseCoreInternal",
+    "printedName": "FirebaseCoreInternal",
     "children": [
       {
         "kind": "Import",
@@ -169,6 +169,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -383,6 +397,20 @@
             "printedName": "HTTPHeaderRepresentable",
             "usr": "s:20FirebaseCoreInternal23HTTPHeaderRepresentableP",
             "mangledName": "$s20FirebaseCoreInternal23HTTPHeaderRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -629,6 +657,9 @@
             "moduleName": "FirebaseCoreInternal",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -671,6 +702,20 @@
         "enumRawTypeName": "Int",
         "isEnumExhaustive": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -757,6 +802,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -1042,7 +1094,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1067,7 +1119,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -1139,6 +1191,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -1358,7 +1424,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "HeartbeatStorageProtocol",
-                "printedName": "FirebaseCoreInternal.HeartbeatStorageProtocol",
+                "printedName": "any FirebaseCoreInternal.HeartbeatStorageProtocol",
                 "usr": "s:20FirebaseCoreInternal24HeartbeatStorageProtocolP"
               },
               {
@@ -1476,7 +1542,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1599,6 +1681,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -1854,6 +1952,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1947,6 +2059,22 @@
         "moduleName": "FirebaseCoreInternal",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2352,7 +2480,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2377,7 +2505,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2398,6 +2526,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -2483,6 +2625,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2710,7 +2868,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -2735,7 +2893,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Encoder",
-                    "printedName": "Swift.Encoder",
+                    "printedName": "any Swift.Encoder",
                     "usr": "s:s7EncoderP"
                   }
                 ],
@@ -2789,6 +2947,20 @@
               "RawDocComment"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Decodable",
@@ -3249,6 +3421,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -3310,6 +3496,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -3411,7 +3604,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -3436,7 +3629,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -3616,6 +3809,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -3852,6 +4059,22 @@
         "moduleName": "FirebaseCoreInternal",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -3894,7 +4117,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Storage",
-                "printedName": "FirebaseCoreInternal.Storage",
+                "printedName": "any FirebaseCoreInternal.Storage",
                 "usr": "s:20FirebaseCoreInternal7StorageP"
               }
             ],
@@ -4016,7 +4239,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Storage",
-                "printedName": "FirebaseCoreInternal.Storage",
+                "printedName": "any FirebaseCoreInternal.Storage",
                 "usr": "s:20FirebaseCoreInternal7StorageP"
               }
             ],
@@ -4255,6 +4478,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "HeartbeatStorageProtocol",
             "printedName": "HeartbeatStorageProtocol",
             "usr": "s:20FirebaseCoreInternal24HeartbeatStorageProtocolP",
@@ -4464,6 +4701,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "LocalizedError",
                 "printedName": "LocalizedError",
                 "usr": "s:10Foundation14LocalizedErrorP",
@@ -4482,6 +4733,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -4647,7 +4905,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -4675,7 +4933,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -4701,6 +4959,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Sequence",
@@ -4860,6 +5132,22 @@
         "moduleName": "FirebaseCoreInternal",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -5051,6 +5339,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5076,6 +5378,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -5239,7 +5548,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Storage",
-                "printedName": "FirebaseCoreInternal.Storage",
+                "printedName": "any FirebaseCoreInternal.Storage",
                 "usr": "s:20FirebaseCoreInternal7StorageP"
               },
               {
@@ -5270,6 +5579,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Storage",
@@ -5445,7 +5768,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Storage",
-                "printedName": "FirebaseCoreInternal.Storage",
+                "printedName": "any FirebaseCoreInternal.Storage",
                 "usr": "s:20FirebaseCoreInternal7StorageP"
               },
               {
@@ -5476,6 +5799,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Storage",
@@ -5515,7 +5852,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Storage",
-                "printedName": "FirebaseCoreInternal.Storage",
+                "printedName": "any FirebaseCoreInternal.Storage",
                 "usr": "s:20FirebaseCoreInternal7StorageP"
               },
               {
@@ -5543,6 +5880,22 @@
         "moduleName": "FirebaseCoreInternal",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -5757,6 +6110,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Sendable",
@@ -6299,6 +6666,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -6444,6 +6825,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6498,168 +6893,147 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/_ObjC_HeartbeatController.swift",
-      "kind": "StringLiteral",
-      "offset": 763,
-      "length": 25,
-      "value": "\"FirebaseCoreInternal._ObjC_HeartbeatController\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/_ObjC_HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 755,
-      "length": 23,
-      "value": "\"FirebaseCoreInternal._ObjC_HeartbeatsPayload\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
       "kind": "IntegerLiteral",
       "offset": 869,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
-      "kind": "IntegerLiteral",
-      "offset": 869,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
-      "kind": "IntegerLiteral",
-      "offset": 869,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
       "kind": "IntegerLiteral",
       "offset": 1167,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
       "kind": "Array",
       "offset": 2219,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
       "kind": "IntegerLiteral",
       "offset": 972,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
       "kind": "StringLiteral",
       "offset": 1279,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
       "kind": "IntegerLiteral",
       "offset": 1343,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatLoggingTestUtils.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatLoggingTestUtils.swift",
       "kind": "StringLiteral",
       "offset": 1106,
       "length": 26,
       "value": "\"google-heartbeat-storage\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatLoggingTestUtils.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatLoggingTestUtils.swift",
       "kind": "StringLiteral",
       "offset": 1268,
       "length": 30,
       "value": "\"com.google.heartbeat.storage\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatLoggingTestUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1500,
+      "length": 88,
+      "value": "\"   {\n     \"version\": 2,\n     \"heartbeats\": []\n   }\""
+    },
+    {
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatLoggingTestUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1988,
+      "length": 335,
+      "value": "\"   {\n     \"version\": 2,\n     \"heartbeats\": [\n       {\n         \"agent\": \"dummy_agent_1\",\n         \"dates\": [\"2021-11-01\", \"2021-11-02\"]\n       },\n       {\n         \"agent\": \"dummy_agent_2\",\n         \"dates\": [\"2021-11-03\"]\n       }\n     ]\n   }\""
+    },
+    {
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "IntegerLiteral",
       "offset": 1672,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
       "offset": 2254,
       "length": 12,
       "value": "\"heartbeats\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 2254,
-      "length": 12,
-      "value": "\"heartbeats\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
       "offset": 2585,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
       "offset": 4351,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
       "offset": 4406,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "IntegerLiteral",
       "offset": 4471,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
       "offset": 4933,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
       "offset": 5495,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatStorage.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatStorage.swift",
       "kind": "Dictionary",
       "offset": 2158,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
       "kind": "StringLiteral",
       "offset": 758,
       "length": 26,
       "value": "\"google-heartbeat-storage\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
       "kind": "StringLiteral",
       "offset": 905,
       "length": 30,

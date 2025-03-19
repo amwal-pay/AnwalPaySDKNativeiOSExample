@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/nfc_manager-Swift.h</key>
 		<data>
-		xPGsQ/g895Cto81Ce3q8svr77k8=
+		DZDYydY7viL94YGWH44cJomXqQ8=
 		</data>
 		<key>Headers/nfc_manager-umbrella.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/TlL1tnctgjbdGs3hlDUCyfuSrc=
+		++csZJFKgtlLnv/x0flqu5BIVF8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -26,51 +26,51 @@
 		</data>
 		<key>Modules/nfc_manager.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		BRELGSrUejJFNDF26gwn1Mv1IuQ=
+		Cro9/iiOT+sSUFPBDhw87sOeykI=
 		</data>
 		<key>Modules/nfc_manager.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		jAzVdCmgxMROZAWBwT6bVjMz3vA=
+		Y7nZRsa+sXzPjLHvJuuZYa8V9yc=
 		</data>
 		<key>Modules/nfc_manager.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		W6ezE8tSBPEwTadZ9bFibn/MQo0=
+		bfGQhmCkIfaqypowMYTdWQ0DuUw=
 		</data>
 		<key>Modules/nfc_manager.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ko3CreU0ARwicBd/VGRUx6qjzFw=
+		dMEUVA5atViq+XIyfOJN5v3BXbQ=
 		</data>
 		<key>Modules/nfc_manager.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		A9iIs4/qab+CQij75uGa9U7GynY=
+		l/Ej30PiIoR/x2RiwW1aYEWOHMo=
 		</data>
 		<key>Modules/nfc_manager.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ko3CreU0ARwicBd/VGRUx6qjzFw=
+		dMEUVA5atViq+XIyfOJN5v3BXbQ=
 		</data>
 		<key>Modules/nfc_manager.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OxWPK8zf/L0JAfsswauEmNaIGpw=
+		flTTEWyl52bRGyWBwDvUR75IHxE=
 		</data>
 		<key>Modules/nfc_manager.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		W6ezE8tSBPEwTadZ9bFibn/MQo0=
+		bfGQhmCkIfaqypowMYTdWQ0DuUw=
 		</data>
 		<key>Modules/nfc_manager.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		w9tvT8vJUNxf/fiW7lm5EoOLvDY=
+		4C7LUf8+hh9EB1k64XMl7g9/wgg=
 		</data>
 		<key>Modules/nfc_manager.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xyS11BPOmsnuOW3gBTG38XqCZrY=
+		KiDCSKq2yvrbLQ04TIp9Hcp/wQE=
 		</data>
 		<key>Modules/nfc_manager.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		w9tvT8vJUNxf/fiW7lm5EoOLvDY=
+		4C7LUf8+hh9EB1k64XMl7g9/wgg=
 		</data>
 		<key>Modules/nfc_manager.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UR+8x5C+b1xBxc//bOc2RLtnVRs=
+		4x4dAK0nBWyN9LHJK531hQIyitI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -86,7 +86,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jr6KXBhZ5YFH69Wzu7SYOUMdit1iLVtX8+BOEQokflo=
+			tnmEAF0RMUUBu53p/QzzEbu3L/5beB7jHBba4eZnCy0=
 			</data>
 		</dict>
 		<key>Headers/nfc_manager-umbrella.h</key>
@@ -107,84 +107,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rkj2jQpZW7pMknjRpVm0kGPd3bKlYDv10wfdT5LQ23k=
+			AhsFzPFjNqDufMWQHnGu4uycdfdZFZeFhPcFJiv0Jr0=
 			</data>
 		</dict>
 		<key>Modules/nfc_manager.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lpJ/FYl+EF115iCg5I3khsZuo3rxjlzr4jPWZ0Y3LR8=
+			6mcoeKhI6wYKXDq9mpZzNh+057CY3FgIEg7fCqWGuCs=
 			</data>
 		</dict>
 		<key>Modules/nfc_manager.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JC2+fN5yq4gtczh7mf/sn05gtLLQtqMnN58w4gfsqOA=
+			AjAyOtHIUTZ+PR7B85MaTRtJbgqdpE/FnO720HvRcVo=
 			</data>
 		</dict>
 		<key>Modules/nfc_manager.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZhPLwkAeZPHm23YaZZnnGzk3cpr4QoPFUrR8DPwONAk=
+			b0zpzwT3YM6Rd4ObVTvxduar1fTSK7Cv2yvuvdE9bak=
 			</data>
 		</dict>
 		<key>Modules/nfc_manager.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0iifuIDNFIEphXTupgCH+iR3E+jTbh4XmTvIXASATHE=
+			FvKXxh3t+tbBhzIktGvqBgWVn0+2Ea7YROWDsRmXCdc=
 			</data>
 		</dict>
 		<key>Modules/nfc_manager.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZhPLwkAeZPHm23YaZZnnGzk3cpr4QoPFUrR8DPwONAk=
+			b0zpzwT3YM6Rd4ObVTvxduar1fTSK7Cv2yvuvdE9bak=
 			</data>
 		</dict>
 		<key>Modules/nfc_manager.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/DUuvgz3G5/yrvimYsR/nd8TKB+h9X8UJCt2JkgF2M8=
+			43g6gptRVUtbLpnlsIfNN6H3uOzk5iKUC7kfvOpnYM0=
 			</data>
 		</dict>
 		<key>Modules/nfc_manager.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JC2+fN5yq4gtczh7mf/sn05gtLLQtqMnN58w4gfsqOA=
+			AjAyOtHIUTZ+PR7B85MaTRtJbgqdpE/FnO720HvRcVo=
 			</data>
 		</dict>
 		<key>Modules/nfc_manager.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VtTDGAINObNrLUvAf9mCFSXTTtIW7YcdtwP+DtHVSiY=
+			cyWXqvnUPybKCicSIIIPmqsc3yhlaVxqAt1YJ3pha14=
 			</data>
 		</dict>
 		<key>Modules/nfc_manager.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bUf7/51ssPR4+l2epVOcp2GsZ8y8RVpatG7Oo05PhDI=
+			PcHkGUAigFhD3kXbaCTUcdy8BpkdIEBFIGYOEvNz2w4=
 			</data>
 		</dict>
 		<key>Modules/nfc_manager.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VtTDGAINObNrLUvAf9mCFSXTTtIW7YcdtwP+DtHVSiY=
+			cyWXqvnUPybKCicSIIIPmqsc3yhlaVxqAt1YJ3pha14=
 			</data>
 		</dict>
 		<key>Modules/nfc_manager.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sCR6KvlJJj0Cyv2KJdkWxyGgmMNwQEQYWAY15kb5HSI=
+			gIbq6NPO13o0moyoH5Q5HCHTdvnOZyb0In1wP9sPgeg=
 			</data>
 		</dict>
 	</dict>

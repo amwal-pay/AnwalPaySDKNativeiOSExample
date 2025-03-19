@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "nfc_manager",
+    "printedName": "nfc_manager",
     "children": [
       {
         "kind": "Import",
@@ -36,7 +36,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -180,7 +180,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -253,6 +253,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -543,7 +557,7 @@
           {
             "kind": "TypeFunc",
             "name": "Function",
-            "printedName": "(CoreNFC.NFCNDEFTag, [Swift.String : Any?], Swift.Error?) -> ()",
+            "printedName": "(any CoreNFC.NFCNDEFTag, [Swift.String : Any?], (any Swift.Error)?) -> ()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -553,12 +567,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Tuple",
-                "printedName": "(CoreNFC.NFCNDEFTag, [Swift.String : Any?], Swift.Error?)",
+                "printedName": "(any CoreNFC.NFCNDEFTag, [Swift.String : Any?], (any Swift.Error)?)",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "NFCNDEFTag",
-                    "printedName": "CoreNFC.NFCNDEFTag",
+                    "printedName": "any CoreNFC.NFCNDEFTag",
                     "usr": "c:objc(pl)NFCNDEFTag"
                   },
                   {
@@ -591,12 +605,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -630,13 +644,13 @@
           {
             "kind": "TypeNominal",
             "name": "NFCNDEFTag",
-            "printedName": "CoreNFC.NFCNDEFTag",
+            "printedName": "any CoreNFC.NFCNDEFTag",
             "usr": "c:objc(pl)NFCNDEFTag"
           },
           {
             "kind": "TypeFunc",
             "name": "Function",
-            "printedName": "([Swift.String : Any?], Swift.Error?) -> ()",
+            "printedName": "([Swift.String : Any?], (any Swift.Error)?) -> ()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -646,7 +660,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Tuple",
-                "printedName": "([Swift.String : Any?], Swift.Error?)",
+                "printedName": "([Swift.String : Any?], (any Swift.Error)?)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -678,12 +692,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -753,7 +767,7 @@
           {
             "kind": "TypeNominal",
             "name": "NFCNDEFTag",
-            "printedName": "CoreNFC.NFCNDEFTag",
+            "printedName": "any CoreNFC.NFCNDEFTag",
             "usr": "c:objc(pl)NFCNDEFTag"
           }
         ],
@@ -802,7 +816,7 @@
           {
             "kind": "TypeNominal",
             "name": "Error",
-            "printedName": "Swift.Error",
+            "printedName": "any Swift.Error",
             "usr": "s:s5ErrorP"
           }
         ],
@@ -830,7 +844,7 @@
           {
             "kind": "TypeNominal",
             "name": "Error",
-            "printedName": "Swift.Error",
+            "printedName": "any Swift.Error",
             "usr": "s:s5ErrorP"
           }
         ],
@@ -845,18 +859,11 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/nfc_manager-3.5.0\/ios\/Classes\/SwiftNfcManagerPlugin.swift",
+      "filePath": "\/Users\/amrsaied\/.pub-cache\/hosted\/pub.dev\/nfc_manager-3.5.0\/ios\/Classes\/SwiftNfcManagerPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 576,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/nfc_manager-3.5.0\/ios\/Classes\/SwiftNfcManagerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 44,
-      "length": 21,
-      "value": "\"nfc_manager.SwiftNfcManagerPlugin\""
     }
   ]
 }

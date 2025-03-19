@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "FirebaseSessions",
+    "printedName": "FirebaseSessions",
     "children": [
       {
         "kind": "Import",
@@ -110,10 +110,7 @@
         "name": "Promises",
         "printedName": "Promises",
         "declKind": "Import",
-        "moduleName": "FirebaseSessions",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
+        "moduleName": "FirebaseSessions"
       },
       {
         "kind": "Import",
@@ -382,6 +379,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -459,7 +470,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "SessionsSubscriber",
-                "printedName": "FirebaseSessions.SessionsSubscriber",
+                "printedName": "any FirebaseSessions.SessionsSubscriber",
                 "usr": "c:@M@FirebaseSessions@objc(pl)FIRSessionsSubscriber"
               }
             ],
@@ -489,6 +500,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -654,6 +681,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -855,6 +898,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1161,6 +1218,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1326,6 +1397,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1395,6 +1480,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1505,6 +1604,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1598,6 +1711,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1695,6 +1822,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1790,6 +1931,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1880,13 +2035,41 @@
         "usr": "s:Sp",
         "mangledName": "$sSp",
         "moduleName": "Swift",
-        "genericSig": "<τ_0_0>",
-        "sugared_genericSig": "<Pointee>",
+        "genericSig": "<τ_0_0 where τ_0_0 : ~Copyable>",
+        "sugared_genericSig": "<Pointee where Pointee : ~Copyable>",
         "declAttributes": [
           "Frozen"
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "_Pointer",
@@ -1910,17 +2093,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -1928,6 +2111,13 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
           },
           {
             "kind": "Conformance",
@@ -1953,24 +2143,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
-            "name": "Comparable",
-            "printedName": "Comparable",
-            "usr": "s:SL",
-            "mangledName": "$sSL"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
           },
           {
             "kind": "Conformance",
@@ -1985,13 +2168,6 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -2049,8 +2225,8 @@
         "usr": "s:Sq",
         "mangledName": "$sSq",
         "moduleName": "Swift",
-        "genericSig": "<τ_0_0>",
-        "sugared_genericSig": "<Wrapped>",
+        "genericSig": "<τ_0_0 where τ_0_0 : ~Copyable>",
+        "sugared_genericSig": "<Wrapped where Wrapped : ~Copyable>",
         "declAttributes": [
           "Frozen"
         ],
@@ -2059,10 +2235,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "ExpressibleByNilLiteral",
-            "printedName": "ExpressibleByNilLiteral",
-            "usr": "s:s23ExpressibleByNilLiteralP",
-            "mangledName": "$ss23ExpressibleByNilLiteralP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2091,6 +2267,34 @@
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByNilLiteral",
+            "printedName": "ExpressibleByNilLiteral",
+            "usr": "s:s23ExpressibleByNilLiteralP",
+            "mangledName": "$ss23ExpressibleByNilLiteralP"
           },
           {
             "kind": "Conformance",
@@ -2133,13 +2337,6 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -2190,1306 +2387,165 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/ApplicationInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 2517,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/ApplicationInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 2672,
-      "length": 32,
-      "value": "\"FirebaseSessionsRunEnvironment\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/ApplicationInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 2935,
-      "length": 17,
-      "value": "\"CFBundleVersion\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/ApplicationInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 2968,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/ApplicationInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 3031,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/ApplicationInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 3075,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/ApplicationInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 3146,
-      "length": 16,
-      "value": "\"kern.osversion\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/ApplicationInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 3167,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
       "kind": "StringLiteral",
       "offset": 774,
       "length": 25,
       "value": "\"-FIRSessionsDebugEvents\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1160,
-      "length": 2213,
-      "value": "\"Printing Session Event due to \"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1222,
-      "length": 1,
-      "value": "\"\" command line argument\nSession Event:\n  event_type: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1303,
-      "length": 12,
-      "value": "\"\n  session_data\n    session_id: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1387,
-      "length": 16,
-      "value": "\"\n    first_session_id: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1464,
-      "length": 13,
-      "value": "\"\n    session_index: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1523,
-      "length": 18,
-      "value": "\"\n    event_timestamp_us: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1592,
-      "length": 24,
-      "value": "\"\n    firebase_installation_id: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1685,
-      "length": 29,
-      "value": "\"\n    firebase_authentication_token:\n        \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1800,
-      "length": 22,
-      "value": "\"\n    data_collection_status\n      crashlytics: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1911,
-      "length": 11,
-      "value": "\"\n      performance: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1991,
-      "length": 21,
-      "value": "\"\n      session_sampling_rate: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2091,
-      "length": 16,
-      "value": "\"\n  application_info\n    app_id: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2175,
-      "length": 19,
-      "value": "\"\n    session_sdk_version: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2262,
-      "length": 10,
-      "value": "\"\n    os_version: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2331,
-      "length": 12,
-      "value": "\"\n    device_model: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2404,
-      "length": 25,
-      "value": "\"\n    development_platform_name: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2503,
-      "length": 28,
-      "value": "\"\n    development_platform_version: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2615,
-      "length": 19,
-      "value": "\"\n    session_sdk_version: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2702,
-      "length": 14,
-      "value": "\"\n    apple_app_info\n      bundle_short_version: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2838,
-      "length": 17,
-      "value": "\"\n      app_build_version: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 2938,
-      "length": 23,
-      "value": "\"\n      network_connection_info\n        network_type: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 3092,
-      "length": 14,
-      "value": "\"\n        mobile_subtype: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 3216,
-      "length": 7,
-      "value": "\"\n      os_name: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 3296,
-      "length": 15,
-      "value": "\"\n      log_environment: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 3365,
-      "length": 41,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
       "kind": "StringLiteral",
       "offset": 1030,
       "length": 6,
       "value": "\"1974\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
       "kind": "Array",
       "offset": 1802,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
       "kind": "Dictionary",
       "offset": 2053,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
       "kind": "StringLiteral",
       "offset": 2149,
       "length": 34,
       "value": "\"SessionIDChangedNotificationName\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 3408,
-      "length": 41,
-      "value": "\"Successfully logged Session Start event\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 3613,
-      "length": 79,
-      "value": "\"Error getting Firebase Installation ID: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 3662,
-      "length": 1,
-      "value": "\". Skipping this Session Event\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 3804,
-      "length": 69,
-      "value": "\"Error logging Session Start event to GoogleDataTransport: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 3871,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 3977,
-      "length": 97,
-      "value": "\"Sessions SDK did not have any dependent SDKs register as dependencies. Events will not be sent.\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 4179,
-      "length": 39,
-      "value": "\"Sessions SDK has sampled this session\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 4327,
-      "length": 39,
-      "value": "\"Sessions SDK is disabled via Settings\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 4470,
-      "length": 78,
-      "value": "\"Data Collection is disabled for all subscribers. Skipping this Session Event\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 4650,
-      "length": 84,
-      "value": "\"Error getting Firebase Installation ID due to timeout. Skipping this Session Event\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 5549,
-      "length": 98,
-      "value": "\"Version \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 5578,
-      "length": 1,
-      "value": "\". Expecting subscriptions from: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 5646,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 6848,
-      "length": 56,
-      "value": "\"Data Collection is enabled for at least one Subscriber\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8076,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8082,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8306,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8336,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 8872,
-      "length": 149,
-      "value": "\"Registering Sessions SDK subscriber with name: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 8956,
-      "length": 1,
-      "value": "\", data collection enabled: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 9020,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "Array",
-      "offset": 9830,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10023,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 1118,
-      "length": 8,
-      "value": "\"FirebaseSessions.Sessions\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Installations+InstallationsProtocol.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1261,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Installations+InstallationsProtocol.swift",
-      "kind": "StringLiteral",
-      "offset": 1386,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Installations+InstallationsProtocol.swift",
-      "kind": "StringLiteral",
-      "offset": 1661,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
       "kind": "StringLiteral",
       "offset": 1244,
       "length": 25,
       "value": "\"FirebaseSessionsEnabled\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
       "kind": "StringLiteral",
       "offset": 1311,
       "length": 25,
       "value": "\"FirebaseSessionsTimeout\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
       "kind": "StringLiteral",
       "offset": 1383,
       "length": 29,
       "value": "\"FirebaseSessionsSampingRate\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2571,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Logger.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 773,
       "length": 20,
       "value": "\"[FirebaseSessions]\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Logger.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 825,
       "length": 13,
       "value": "\"I-SES000000\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 1128,
-      "length": 15,
-      "value": "\"SESSION_START\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 1225,
-      "length": 9,
-      "value": "\"UNKNOWN\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 1261,
-      "length": 116,
-      "value": "\"Unrecognized EventType. Please update the firebase_appquality_sessions_EventType CustomStringConvertible extension\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 1621,
-      "length": 9,
-      "value": "\"ENABLED\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 1722,
-      "length": 9,
-      "value": "\"SAMPLED\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 1823,
-      "length": 9,
-      "value": "\"UNKNOWN\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 1925,
-      "length": 10,
-      "value": "\"DISABLED\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 2035,
-      "length": 17,
-      "value": "\"DISABLED_REMOTE\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 2154,
-      "length": 19,
-      "value": "\"SDK_NOT_INSTALLED\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 2200,
-      "length": 136,
-      "value": "\"Unrecognized DataCollectionState. Please update the firebase_appquality_sessions_DataCollectionState CustomStringConvertible extension\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 2539,
-      "length": 5,
-      "value": "\"IOS\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 2611,
-      "length": 8,
-      "value": "\"IPADOS\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 2684,
-      "length": 6,
-      "value": "\"TVOS\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 2761,
-      "length": 12,
-      "value": "\"IOS_ON_MAC\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 2839,
-      "length": 7,
-      "value": "\"MACOS\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 2918,
-      "length": 13,
-      "value": "\"MACCATALYST\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 2999,
-      "length": 9,
-      "value": "\"WATCHOS\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 3083,
-      "length": 16,
-      "value": "\"UNKNOWN_OSNAME\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 3171,
-      "length": 13,
-      "value": "\"UNSPECIFIED\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 3211,
-      "length": 110,
-      "value": "\"Unrecognized OsName. Please update the firebase_appquality_sessions_OsName CustomStringConvertible extension\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 3557,
-      "length": 6,
-      "value": "\"PROD\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 3655,
-      "length": 9,
-      "value": "\"STAGING\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 3757,
-      "length": 10,
-      "value": "\"AUTOPUSH\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 3859,
-      "length": 9,
-      "value": "\"UNKNOWN\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 3895,
-      "length": 126,
-      "value": "\"Unrecognized LogEnvironment. Please update the firebase_appquality_sessions_LogEnvironment CustomStringConvertible extension\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4390,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 4407,
-      "length": 9,
-      "value": "\"<EMPTY>\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/NanoPB+CustomStringConvertible.swift",
-      "kind": "StringLiteral",
-      "offset": 4821,
-      "length": 8,
-      "value": "\"<NULL>\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 795,
-      "length": 43,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 816,
-      "length": 1,
-      "value": "\" (\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 836,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "IntegerLiteral",
       "offset": 950,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "IntegerLiteral",
       "offset": 955,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "StringLiteral",
       "offset": 1001,
       "length": 18,
       "value": "\"sessions_enabled\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "StringLiteral",
       "offset": 1060,
       "length": 15,
       "value": "\"sampling_rate\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "StringLiteral",
       "offset": 1118,
       "length": 25,
       "value": "\"session_timeout_seconds\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "StringLiteral",
       "offset": 1185,
       "length": 16,
       "value": "\"cache_duration\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "StringLiteral",
       "offset": 1243,
       "length": 13,
       "value": "\"app_quality\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "Dictionary",
-      "offset": 1759,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 2186,
-      "length": 57,
-      "value": "\"[Settings] Cache is not expired, no fetch will be made.\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 2770,
-      "length": 65,
-      "value": "\"[Settings] Fetching newest settings failed with error: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 2834,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3759,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 3839,
-      "length": 46,
-      "value": "\"[Settings] Could not load settings cache key\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3926,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 4023,
-      "length": 56,
-      "value": "\"[Settings] Cache expired because Google App ID changed\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4120,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 4228,
-      "length": 30,
-      "value": "\"[Settings] Cache TTL expired\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4273,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 4365,
-      "length": 54,
-      "value": "\"[Settings] Cache expired because app version changed\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4434,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4456,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SDKDefaultSettings.swift",
-      "kind": "BooleanLiteral",
-      "offset": 808,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SDKDefaultSettings.swift",
-      "kind": "IntegerLiteral",
-      "offset": 896,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SDKDefaultSettings.swift",
-      "kind": "IntegerLiteral",
-      "offset": 901,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SDKDefaultSettings.swift",
-      "kind": "FloatLiteral",
-      "offset": 994,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SDKDefaultSettings.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1324,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 2081,
-      "length": 64,
-      "value": "\"Successfully logged Session Start event to GoogleDataTransport\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 3014,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 3076,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionGenerator.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionGenerator.swift",
       "kind": "StringLiteral",
       "offset": 1367,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionGenerator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1549,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionGenerator.swift",
-      "kind": "StringLiteral",
-      "offset": 1877,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionGenerator.swift",
-      "kind": "StringLiteral",
-      "offset": 1888,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionGenerator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2102,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
-      "kind": "StringLiteral",
-      "offset": 1061,
-      "length": 14,
-      "value": "\"FirebaseSessions.SessionDetails\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
       "kind": "IntegerLiteral",
       "offset": 1406,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
       "kind": "IntegerLiteral",
       "offset": 1425,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
-      "kind": "StringLiteral",
-      "offset": 1527,
-      "length": 13,
-      "value": "\"Crashlytics\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
-      "kind": "StringLiteral",
-      "offset": 1577,
-      "length": 13,
-      "value": "\"Performance\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
-      "kind": "StringLiteral",
-      "offset": 1617,
-      "length": 9,
-      "value": "\"Unknown\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1406,
-      "length": 11,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1425,
-      "length": 11,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 3054,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 3311,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 5505,
-      "length": 79,
-      "value": "\"Attempted to set Data Collection status for unknown Subscriber: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 5583,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 6365,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 7711,
-      "length": 7,
-      "value": "\"macos\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 7784,
-      "length": 13,
-      "value": "\"maccatalyst\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 7869,
-      "length": 12,
-      "value": "\"ios_on_mac\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 7952,
-      "length": 5,
-      "value": "\"ios\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 8021,
-      "length": 6,
-      "value": "\"tvos\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 8092,
-      "length": 9,
-      "value": "\"watchos\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 8169,
-      "length": 8,
-      "value": "\"ipados\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 8272,
-      "length": 55,
-      "value": "\"Found unknown OSName: \"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 8306,
-      "length": 1,
-      "value": "\"\" while converting.\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9157,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 9185,
-      "length": 64,
-      "value": "\"Session Event failed to decode transportBytes: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 9248,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1074,
-      "length": 17,
-      "value": "\"FirebaseSessions.SessionStartEvent\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
       "kind": "IntegerLiteral",
       "offset": 1956,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
       "kind": "StringLiteral",
       "offset": 2020,
       "length": 28,
       "value": "\"firebase-sessions-settings\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
       "kind": "StringLiteral",
       "offset": 2078,
       "length": 29,
       "value": "\"firebase-sessions-cache-key\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
-      "kind": "Dictionary",
-      "offset": 2508,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2897,
-      "length": 58,
-      "value": "\"[Settings] Decoding CacheKey failed with error: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2954,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3157,
-      "length": 58,
-      "value": "\"[Settings] Encoding CacheKey failed with error: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3214,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsDownloadClient.swift",
-      "kind": "StringLiteral",
-      "offset": 1685,
-      "length": 13,
-      "value": "\"Invalid URL\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsDownloadClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2248,
-      "length": 36,
-      "value": "\"Failed to parse JSON to dictionary\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsDownloadClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2746,
-      "length": 7,
-      "value": "\"https\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsDownloadClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2776,
-      "length": 35,
-      "value": "\"firebase-settings.crashlytics.com\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsDownloadClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2834,
-      "length": 67,
-      "value": "\"\/spi\/v2\/platforms\/\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsDownloadClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2870,
-      "length": 1,
-      "value": "\"\/gmp\/\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsDownloadClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2891,
-      "length": 1,
-      "value": "\"\/settings\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsDownloadClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2957,
-      "length": 15,
-      "value": "\"build_version\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsDownloadClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3032,
-      "length": 17,
-      "value": "\"display_version\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsDownloadClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3251,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsDownloadClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3291,
-      "length": 8,
-      "value": "\"Accept\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsDownloadClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3348,
-      "length": 31,
-      "value": "\"X-Crashlytics-Installation-ID\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsDownloadClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3443,
-      "length": 28,
-      "value": "\"X-Crashlytics-Device-Model\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsDownloadClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3551,
-      "length": 32,
-      "value": "\"X-Crashlytics-OS-Build-Version\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsDownloadClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3670,
-      "length": 34,
-      "value": "\"X-Crashlytics-OS-Display-Version\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsDownloadClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3772,
-      "length": 34,
-      "value": "\"X-Crashlytics-API-Client-Version\""
     }
   ]
 }

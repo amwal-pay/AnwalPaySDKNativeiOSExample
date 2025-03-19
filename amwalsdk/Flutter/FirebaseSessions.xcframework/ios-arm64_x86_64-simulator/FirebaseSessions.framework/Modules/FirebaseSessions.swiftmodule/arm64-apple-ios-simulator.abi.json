@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "FirebaseSessions",
+    "printedName": "FirebaseSessions",
     "children": [
       {
         "kind": "Import",
@@ -244,6 +244,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -284,6 +298,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -480,7 +501,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "NetworkInfoProtocol",
-                "printedName": "FirebaseSessions.NetworkInfoProtocol",
+                "printedName": "any FirebaseSessions.NetworkInfoProtocol",
                 "usr": "s:16FirebaseSessions19NetworkInfoProtocolP"
               }
             ],
@@ -501,7 +522,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "NetworkInfoProtocol",
-                    "printedName": "FirebaseSessions.NetworkInfoProtocol",
+                    "printedName": "any FirebaseSessions.NetworkInfoProtocol",
                     "usr": "s:16FirebaseSessions19NetworkInfoProtocolP"
                   }
                 ],
@@ -775,7 +796,23 @@
         "declKind": "Protocol",
         "usr": "s:16FirebaseSessions23ApplicationInfoProtocolP",
         "mangledName": "$s16FirebaseSessions23ApplicationInfoProtocolP",
-        "moduleName": "FirebaseSessions"
+        "moduleName": "FirebaseSessions",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -839,7 +876,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "NetworkInfoProtocol",
-                "printedName": "FirebaseSessions.NetworkInfoProtocol",
+                "printedName": "any FirebaseSessions.NetworkInfoProtocol",
                 "usr": "s:16FirebaseSessions19NetworkInfoProtocolP"
               }
             ],
@@ -964,7 +1001,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "NetworkInfoProtocol",
-                "printedName": "FirebaseSessions.NetworkInfoProtocol",
+                "printedName": "any FirebaseSessions.NetworkInfoProtocol",
                 "hasDefaultArg": true,
                 "usr": "s:16FirebaseSessions19NetworkInfoProtocolP"
               },
@@ -1149,7 +1186,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "NetworkInfoProtocol",
-                "printedName": "FirebaseSessions.NetworkInfoProtocol",
+                "printedName": "any FirebaseSessions.NetworkInfoProtocol",
                 "usr": "s:16FirebaseSessions19NetworkInfoProtocolP"
               }
             ],
@@ -1167,7 +1204,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "NetworkInfoProtocol",
-                    "printedName": "FirebaseSessions.NetworkInfoProtocol",
+                    "printedName": "any FirebaseSessions.NetworkInfoProtocol",
                     "usr": "s:16FirebaseSessions19NetworkInfoProtocolP"
                   }
                 ],
@@ -1384,6 +1421,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ApplicationInfoProtocol",
             "printedName": "ApplicationInfoProtocol",
             "usr": "s:16FirebaseSessions23ApplicationInfoProtocolP",
@@ -1452,7 +1503,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<(), Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1462,7 +1513,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<(), Swift.Error>",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1472,7 +1523,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1543,6 +1594,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "EventGDTLoggerProtocol",
             "printedName": "EventGDTLoggerProtocol",
             "usr": "s:16FirebaseSessions22EventGDTLoggerProtocolP",
@@ -1594,7 +1659,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<(), Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1604,7 +1669,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<(), Swift.Error>",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1614,7 +1679,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1637,7 +1702,23 @@
         "declKind": "Protocol",
         "usr": "s:16FirebaseSessions22EventGDTLoggerProtocolP",
         "mangledName": "$s16FirebaseSessions22EventGDTLoggerProtocolP",
-        "moduleName": "FirebaseSessions"
+        "moduleName": "FirebaseSessions",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1652,7 +1733,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "GoogleDataTransportProtocol",
-                "printedName": "FirebaseSessions.GoogleDataTransportProtocol",
+                "printedName": "any FirebaseSessions.GoogleDataTransportProtocol",
                 "usr": "s:16FirebaseSessions27GoogleDataTransportProtocolP"
               }
             ],
@@ -1676,7 +1757,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "GoogleDataTransportProtocol",
-                    "printedName": "FirebaseSessions.GoogleDataTransportProtocol",
+                    "printedName": "any FirebaseSessions.GoogleDataTransportProtocol",
                     "usr": "s:16FirebaseSessions27GoogleDataTransportProtocolP"
                   }
                 ],
@@ -1701,7 +1782,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "EventGDTLoggerProtocol",
-                "printedName": "FirebaseSessions.EventGDTLoggerProtocol",
+                "printedName": "any FirebaseSessions.EventGDTLoggerProtocol",
                 "usr": "s:16FirebaseSessions22EventGDTLoggerProtocolP"
               }
             ],
@@ -1725,7 +1806,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "EventGDTLoggerProtocol",
-                    "printedName": "FirebaseSessions.EventGDTLoggerProtocol",
+                    "printedName": "any FirebaseSessions.EventGDTLoggerProtocol",
                     "usr": "s:16FirebaseSessions22EventGDTLoggerProtocolP"
                   }
                 ],
@@ -1756,13 +1837,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "GoogleDataTransportProtocol",
-                "printedName": "FirebaseSessions.GoogleDataTransportProtocol",
+                "printedName": "any FirebaseSessions.GoogleDataTransportProtocol",
                 "usr": "s:16FirebaseSessions27GoogleDataTransportProtocolP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "EventGDTLoggerProtocol",
-                "printedName": "FirebaseSessions.EventGDTLoggerProtocol",
+                "printedName": "any FirebaseSessions.EventGDTLoggerProtocol",
                 "hasDefaultArg": true,
                 "usr": "s:16FirebaseSessions22EventGDTLoggerProtocolP"
               }
@@ -1792,7 +1873,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<(), Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1802,7 +1883,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<(), Swift.Error>",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1812,7 +1893,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1841,6 +1922,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "EventGDTLoggerProtocol",
@@ -1896,10 +1991,7 @@
         "name": "Promises",
         "printedName": "Promises",
         "declKind": "Import",
-        "moduleName": "FirebaseSessions",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
+        "moduleName": "FirebaseSessions"
       },
       {
         "kind": "TypeDecl",
@@ -1941,7 +2033,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "SessionCoordinatorProtocol",
-                "printedName": "FirebaseSessions.SessionCoordinatorProtocol",
+                "printedName": "any FirebaseSessions.SessionCoordinatorProtocol",
                 "usr": "s:16FirebaseSessions26SessionCoordinatorProtocolP"
               }
             ],
@@ -2020,7 +2112,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ApplicationInfoProtocol",
-                "printedName": "FirebaseSessions.ApplicationInfoProtocol",
+                "printedName": "any FirebaseSessions.ApplicationInfoProtocol",
                 "usr": "s:16FirebaseSessions23ApplicationInfoProtocolP"
               }
             ],
@@ -2046,7 +2138,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "SettingsProtocol",
-                "printedName": "FirebaseSessions.SettingsProtocol",
+                "printedName": "any FirebaseSessions.SettingsProtocol",
                 "usr": "s:16FirebaseSessions16SettingsProtocolP"
               }
             ],
@@ -2072,12 +2164,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[FirebaseSessions.SessionsSubscriber]",
+                "printedName": "[any FirebaseSessions.SessionsSubscriber]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SessionsSubscriber",
-                    "printedName": "FirebaseSessions.SessionsSubscriber",
+                    "printedName": "any FirebaseSessions.SessionsSubscriber",
                     "usr": "c:@M@FirebaseSessions@objc(pl)FIRSessionsSubscriber"
                   }
                 ],
@@ -2267,7 +2359,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "InstallationsProtocol",
-                "printedName": "FirebaseSessions.InstallationsProtocol",
+                "printedName": "any FirebaseSessions.InstallationsProtocol",
                 "usr": "s:16FirebaseSessions21InstallationsProtocolP"
               }
             ],
@@ -2308,7 +2400,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "SessionCoordinatorProtocol",
-                "printedName": "FirebaseSessions.SessionCoordinatorProtocol",
+                "printedName": "any FirebaseSessions.SessionCoordinatorProtocol",
                 "usr": "s:16FirebaseSessions26SessionCoordinatorProtocolP"
               },
               {
@@ -2320,13 +2412,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "ApplicationInfoProtocol",
-                "printedName": "FirebaseSessions.ApplicationInfoProtocol",
+                "printedName": "any FirebaseSessions.ApplicationInfoProtocol",
                 "usr": "s:16FirebaseSessions23ApplicationInfoProtocolP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "SettingsProtocol",
-                "printedName": "FirebaseSessions.SettingsProtocol",
+                "printedName": "any FirebaseSessions.SettingsProtocol",
                 "usr": "s:16FirebaseSessions16SettingsProtocolP"
               },
               {
@@ -2384,7 +2476,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "SettingsProtocol",
-                "printedName": "FirebaseSessions.SettingsProtocol",
+                "printedName": "any FirebaseSessions.SettingsProtocol",
                 "usr": "s:16FirebaseSessions16SettingsProtocolP"
               }
             ],
@@ -2526,7 +2618,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "SessionsSubscriber",
-                "printedName": "FirebaseSessions.SessionsSubscriber",
+                "printedName": "any FirebaseSessions.SessionsSubscriber",
                 "usr": "c:@M@FirebaseSessions@objc(pl)FIRSessionsSubscriber"
               }
             ],
@@ -2621,6 +2713,20 @@
             "printedName": "SessionsProvider",
             "usr": "c:@M@FirebaseSessions@objc(pl)FIRSessionsProvider",
             "mangledName": "$s16FirebaseSessions0B8ProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2737,12 +2843,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FirebaseSessions.FirebaseSessionsError.Type) -> (Swift.Error) -> FirebaseSessions.FirebaseSessionsError",
+                "printedName": "(FirebaseSessions.FirebaseSessionsError.Type) -> (any Swift.Error) -> FirebaseSessions.FirebaseSessionsError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> FirebaseSessions.FirebaseSessionsError",
+                    "printedName": "(any Swift.Error) -> FirebaseSessions.FirebaseSessionsError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2753,7 +2859,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -2832,12 +2938,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FirebaseSessions.FirebaseSessionsError.Type) -> (Swift.Error) -> FirebaseSessions.FirebaseSessionsError",
+                "printedName": "(FirebaseSessions.FirebaseSessionsError.Type) -> (any Swift.Error) -> FirebaseSessions.FirebaseSessionsError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> FirebaseSessions.FirebaseSessionsError",
+                    "printedName": "(any Swift.Error) -> FirebaseSessions.FirebaseSessionsError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2848,7 +2954,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -3011,6 +3117,20 @@
         ],
         "isEnumExhaustive": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -3195,6 +3315,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3220,6 +3354,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -3247,7 +3388,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<(), Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3257,7 +3398,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<(), Swift.Error>",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3267,7 +3408,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -3312,7 +3453,23 @@
         "declKind": "Protocol",
         "usr": "s:16FirebaseSessions27GoogleDataTransportProtocolP",
         "mangledName": "$s16FirebaseSessions27GoogleDataTransportProtocolP",
-        "moduleName": "FirebaseSessions"
+        "moduleName": "FirebaseSessions",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -3394,7 +3551,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FirebaseInstallations.InstallationsAuthTokenResult?, Swift.Error?) -> ()",
+                "printedName": "(FirebaseInstallations.InstallationsAuthTokenResult?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3404,7 +3561,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(FirebaseInstallations.InstallationsAuthTokenResult?, Swift.Error?)",
+                    "printedName": "(FirebaseInstallations.InstallationsAuthTokenResult?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3423,12 +3580,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -3465,7 +3622,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.String?, Swift.Error?) -> ()",
+                "printedName": "(Swift.String?, (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3475,7 +3632,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swift.String?, Swift.Error?)",
+                    "printedName": "(Swift.String?, (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3494,12 +3651,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -3536,7 +3693,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<(Swift.String, Swift.String), Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<(Swift.String, Swift.String), any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3546,7 +3703,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<(Swift.String, Swift.String), Swift.Error>",
+                    "printedName": "Swift.Result<(Swift.String, Swift.String), any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3570,7 +3727,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -3646,7 +3803,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<(Swift.String, Swift.String), Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<(Swift.String, Swift.String), any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3656,7 +3813,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<(Swift.String, Swift.String), Swift.Error>",
+                    "printedName": "Swift.Result<(Swift.String, Swift.String), any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3680,7 +3837,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -3702,7 +3859,23 @@
         "declKind": "Protocol",
         "usr": "s:16FirebaseSessions21InstallationsProtocolP",
         "mangledName": "$s16FirebaseSessions21InstallationsProtocolP",
-        "moduleName": "FirebaseSessions"
+        "moduleName": "FirebaseSessions",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -4108,6 +4281,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SettingsProvider",
             "printedName": "SettingsProvider",
             "usr": "s:16FirebaseSessions16SettingsProviderP",
@@ -4248,10 +4435,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -4381,6 +4589,22 @@
         "moduleName": "FirebaseSessions",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -4494,6 +4718,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "NetworkInfoProtocol",
             "printedName": "NetworkInfoProtocol",
             "usr": "s:16FirebaseSessions19NetworkInfoProtocolP",
@@ -4524,7 +4762,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ApplicationInfoProtocol",
-                "printedName": "FirebaseSessions.ApplicationInfoProtocol",
+                "printedName": "any FirebaseSessions.ApplicationInfoProtocol",
                 "usr": "s:16FirebaseSessions23ApplicationInfoProtocolP"
               }
             ],
@@ -4550,7 +4788,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "SettingsDownloadClient",
-                "printedName": "FirebaseSessions.SettingsDownloadClient",
+                "printedName": "any FirebaseSessions.SettingsDownloadClient",
                 "usr": "s:16FirebaseSessions22SettingsDownloadClientP"
               }
             ],
@@ -4576,7 +4814,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "SettingsCacheClient",
-                "printedName": "FirebaseSessions.SettingsCacheClient",
+                "printedName": "any FirebaseSessions.SettingsCacheClient",
                 "usr": "s:16FirebaseSessions19SettingsCacheClientP"
               }
             ],
@@ -4606,19 +4844,19 @@
               {
                 "kind": "TypeNominal",
                 "name": "ApplicationInfoProtocol",
-                "printedName": "FirebaseSessions.ApplicationInfoProtocol",
+                "printedName": "any FirebaseSessions.ApplicationInfoProtocol",
                 "usr": "s:16FirebaseSessions23ApplicationInfoProtocolP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "SettingsDownloadClient",
-                "printedName": "FirebaseSessions.SettingsDownloadClient",
+                "printedName": "any FirebaseSessions.SettingsDownloadClient",
                 "usr": "s:16FirebaseSessions22SettingsDownloadClientP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "SettingsCacheClient",
-                "printedName": "FirebaseSessions.SettingsCacheClient",
+                "printedName": "any FirebaseSessions.SettingsCacheClient",
                 "hasDefaultArg": true,
                 "usr": "s:16FirebaseSessions19SettingsCacheClientP"
               }
@@ -4871,6 +5109,20 @@
         "moduleName": "FirebaseSessions",
         "isOpen": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "SettingsProvider",
@@ -5130,6 +5382,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SettingsProvider",
             "printedName": "SettingsProvider",
             "usr": "s:16FirebaseSessions16SettingsProviderP",
@@ -5214,7 +5480,23 @@
         "declKind": "Protocol",
         "usr": "s:16FirebaseSessions26SessionCoordinatorProtocolP",
         "mangledName": "$s16FirebaseSessions26SessionCoordinatorProtocolP",
-        "moduleName": "FirebaseSessions"
+        "moduleName": "FirebaseSessions",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -5229,7 +5511,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "InstallationsProtocol",
-                "printedName": "FirebaseSessions.InstallationsProtocol",
+                "printedName": "any FirebaseSessions.InstallationsProtocol",
                 "usr": "s:16FirebaseSessions21InstallationsProtocolP"
               }
             ],
@@ -5253,7 +5535,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "InstallationsProtocol",
-                    "printedName": "FirebaseSessions.InstallationsProtocol",
+                    "printedName": "any FirebaseSessions.InstallationsProtocol",
                     "usr": "s:16FirebaseSessions21InstallationsProtocolP"
                   }
                 ],
@@ -5278,7 +5560,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "EventGDTLoggerProtocol",
-                "printedName": "FirebaseSessions.EventGDTLoggerProtocol",
+                "printedName": "any FirebaseSessions.EventGDTLoggerProtocol",
                 "usr": "s:16FirebaseSessions22EventGDTLoggerProtocolP"
               }
             ],
@@ -5302,7 +5584,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "EventGDTLoggerProtocol",
-                    "printedName": "FirebaseSessions.EventGDTLoggerProtocol",
+                    "printedName": "any FirebaseSessions.EventGDTLoggerProtocol",
                     "usr": "s:16FirebaseSessions22EventGDTLoggerProtocolP"
                   }
                 ],
@@ -5333,13 +5615,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "InstallationsProtocol",
-                "printedName": "FirebaseSessions.InstallationsProtocol",
+                "printedName": "any FirebaseSessions.InstallationsProtocol",
                 "usr": "s:16FirebaseSessions21InstallationsProtocolP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "EventGDTLoggerProtocol",
-                "printedName": "FirebaseSessions.EventGDTLoggerProtocol",
+                "printedName": "any FirebaseSessions.EventGDTLoggerProtocol",
                 "usr": "s:16FirebaseSessions22EventGDTLoggerProtocolP"
               }
             ],
@@ -5417,6 +5699,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "SessionCoordinatorProtocol",
@@ -5689,6 +5985,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -5916,6 +6226,22 @@
         "isOpen": true,
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6021,7 +6347,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "SettingsProtocol",
-                "printedName": "FirebaseSessions.SettingsProtocol",
+                "printedName": "any FirebaseSessions.SettingsProtocol",
                 "usr": "s:16FirebaseSessions16SettingsProtocolP"
               }
             ],
@@ -6044,7 +6370,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "SettingsProtocol",
-                    "printedName": "FirebaseSessions.SettingsProtocol",
+                    "printedName": "any FirebaseSessions.SettingsProtocol",
                     "usr": "s:16FirebaseSessions16SettingsProtocolP"
                   }
                 ],
@@ -6072,7 +6398,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "SettingsProtocol",
-                    "printedName": "FirebaseSessions.SettingsProtocol",
+                    "printedName": "any FirebaseSessions.SettingsProtocol",
                     "usr": "s:16FirebaseSessions16SettingsProtocolP"
                   }
                 ],
@@ -6356,7 +6682,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "SettingsProtocol",
-                "printedName": "FirebaseSessions.SettingsProtocol",
+                "printedName": "any FirebaseSessions.SettingsProtocol",
                 "usr": "s:16FirebaseSessions16SettingsProtocolP"
               },
               {
@@ -6428,6 +6754,22 @@
         "isOpen": true,
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6644,6 +6986,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6721,7 +7077,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "SessionsSubscriber",
-                "printedName": "FirebaseSessions.SessionsSubscriber",
+                "printedName": "any FirebaseSessions.SessionsSubscriber",
                 "usr": "c:@M@FirebaseSessions@objc(pl)FIRSessionsSubscriber"
               }
             ],
@@ -6751,6 +7107,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6776,7 +7148,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ApplicationInfoProtocol",
-                "printedName": "FirebaseSessions.ApplicationInfoProtocol",
+                "printedName": "any FirebaseSessions.ApplicationInfoProtocol",
                 "usr": "s:16FirebaseSessions23ApplicationInfoProtocolP"
               }
             ],
@@ -6802,7 +7174,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "InstallationsProtocol",
-                "printedName": "FirebaseSessions.InstallationsProtocol",
+                "printedName": "any FirebaseSessions.InstallationsProtocol",
                 "usr": "s:16FirebaseSessions21InstallationsProtocolP"
               }
             ],
@@ -6912,13 +7284,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "ApplicationInfoProtocol",
-                "printedName": "FirebaseSessions.ApplicationInfoProtocol",
+                "printedName": "any FirebaseSessions.ApplicationInfoProtocol",
                 "usr": "s:16FirebaseSessions23ApplicationInfoProtocolP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "InstallationsProtocol",
-                "printedName": "FirebaseSessions.InstallationsProtocol",
+                "printedName": "any FirebaseSessions.InstallationsProtocol",
                 "usr": "s:16FirebaseSessions21InstallationsProtocolP"
               }
             ],
@@ -6945,13 +7317,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "ApplicationInfoProtocol",
-                "printedName": "FirebaseSessions.ApplicationInfoProtocol",
+                "printedName": "any FirebaseSessions.ApplicationInfoProtocol",
                 "usr": "s:16FirebaseSessions23ApplicationInfoProtocolP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "InstallationsProtocol",
-                "printedName": "FirebaseSessions.InstallationsProtocol",
+                "printedName": "any FirebaseSessions.InstallationsProtocol",
                 "usr": "s:16FirebaseSessions21InstallationsProtocolP"
               },
               {
@@ -7126,6 +7498,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SettingsProtocol",
             "printedName": "SettingsProtocol",
             "usr": "s:16FirebaseSessions16SettingsProtocolP",
@@ -7286,6 +7672,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -7492,6 +7894,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7798,6 +8214,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7985,13 +8415,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "ApplicationInfoProtocol",
-                "printedName": "FirebaseSessions.ApplicationInfoProtocol",
+                "printedName": "any FirebaseSessions.ApplicationInfoProtocol",
                 "usr": "s:16FirebaseSessions23ApplicationInfoProtocolP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "TimeProvider",
-                "printedName": "FirebaseSessions.TimeProvider",
+                "printedName": "any FirebaseSessions.TimeProvider",
                 "hasDefaultArg": true,
                 "usr": "s:16FirebaseSessions12TimeProviderP"
               }
@@ -8099,7 +8529,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ApplicationInfoProtocol",
-                "printedName": "FirebaseSessions.ApplicationInfoProtocol",
+                "printedName": "any FirebaseSessions.ApplicationInfoProtocol",
                 "usr": "s:16FirebaseSessions23ApplicationInfoProtocolP"
               }
             ],
@@ -8225,6 +8655,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -8634,7 +9078,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8659,7 +9103,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8680,6 +9124,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -8990,6 +9448,22 @@
         "moduleName": "FirebaseSessions",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -9316,6 +9790,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SettingsCacheClient",
             "printedName": "SettingsCacheClient",
             "usr": "s:16FirebaseSessions19SettingsCacheClientP",
@@ -9421,6 +9909,22 @@
         "moduleName": "FirebaseSessions",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -9653,6 +10157,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -9680,7 +10198,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ApplicationInfoProtocol",
-                "printedName": "FirebaseSessions.ApplicationInfoProtocol",
+                "printedName": "any FirebaseSessions.ApplicationInfoProtocol",
                 "usr": "s:16FirebaseSessions23ApplicationInfoProtocolP"
               }
             ],
@@ -9706,7 +10224,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "InstallationsProtocol",
-                "printedName": "FirebaseSessions.InstallationsProtocol",
+                "printedName": "any FirebaseSessions.InstallationsProtocol",
                 "usr": "s:16FirebaseSessions21InstallationsProtocolP"
               }
             ],
@@ -9738,13 +10256,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "ApplicationInfoProtocol",
-                "printedName": "FirebaseSessions.ApplicationInfoProtocol",
+                "printedName": "any FirebaseSessions.ApplicationInfoProtocol",
                 "usr": "s:16FirebaseSessions23ApplicationInfoProtocolP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "InstallationsProtocol",
-                "printedName": "FirebaseSessions.InstallationsProtocol",
+                "printedName": "any FirebaseSessions.InstallationsProtocol",
                 "usr": "s:16FirebaseSessions21InstallationsProtocolP"
               }
             ],
@@ -9824,6 +10342,20 @@
         "moduleName": "FirebaseSessions",
         "isOpen": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "SettingsDownloadClient",
@@ -10014,6 +10546,22 @@
         "moduleName": "FirebaseSessions",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -10270,6 +10818,22 @@
         "moduleName": "FirebaseSessions",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -10333,7 +10897,23 @@
         "declKind": "Protocol",
         "usr": "s:16FirebaseSessions12TimeProviderP",
         "mangledName": "$s16FirebaseSessions12TimeProviderP",
-        "moduleName": "FirebaseSessions"
+        "moduleName": "FirebaseSessions",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -10413,6 +10993,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "TimeProvider",
             "printedName": "TimeProvider",
             "usr": "s:16FirebaseSessions12TimeProviderP",
@@ -10444,7 +11038,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<(), Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -10454,7 +11048,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<(), Swift.Error>",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -10464,7 +11058,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -10498,6 +11092,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10576,6 +11184,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10693,6 +11315,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -10786,6 +11422,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10883,6 +11533,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -10978,6 +11642,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11068,13 +11746,41 @@
         "usr": "s:Sp",
         "mangledName": "$sSp",
         "moduleName": "Swift",
-        "genericSig": "<τ_0_0>",
-        "sugared_genericSig": "<Pointee>",
+        "genericSig": "<τ_0_0 where τ_0_0 : ~Copyable>",
+        "sugared_genericSig": "<Pointee where Pointee : ~Copyable>",
         "declAttributes": [
           "Frozen"
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "_Pointer",
@@ -11098,17 +11804,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -11116,6 +11822,13 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
           },
           {
             "kind": "Conformance",
@@ -11141,24 +11854,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
-            "name": "Comparable",
-            "printedName": "Comparable",
-            "usr": "s:SL",
-            "mangledName": "$sSL"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
           },
           {
             "kind": "Conformance",
@@ -11173,13 +11879,6 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -11237,8 +11936,8 @@
         "usr": "s:Sq",
         "mangledName": "$sSq",
         "moduleName": "Swift",
-        "genericSig": "<τ_0_0>",
-        "sugared_genericSig": "<Wrapped>",
+        "genericSig": "<τ_0_0 where τ_0_0 : ~Copyable>",
+        "sugared_genericSig": "<Wrapped where Wrapped : ~Copyable>",
         "declAttributes": [
           "Frozen"
         ],
@@ -11247,10 +11946,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "ExpressibleByNilLiteral",
-            "printedName": "ExpressibleByNilLiteral",
-            "usr": "s:s23ExpressibleByNilLiteralP",
-            "mangledName": "$ss23ExpressibleByNilLiteralP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -11279,6 +11978,34 @@
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByNilLiteral",
+            "printedName": "ExpressibleByNilLiteral",
+            "usr": "s:s23ExpressibleByNilLiteralP",
+            "mangledName": "$ss23ExpressibleByNilLiteralP"
           },
           {
             "kind": "Conformance",
@@ -11321,13 +12048,6 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -11378,196 +12098,161 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Development\/DevEventConsoleLogger.swift",
       "kind": "StringLiteral",
       "offset": 774,
       "length": 25,
       "value": "\"-FIRSessionsDebugEvents\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
       "kind": "StringLiteral",
       "offset": 1030,
       "length": 6,
       "value": "\"1974\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
       "kind": "Array",
       "offset": 1802,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
       "kind": "Dictionary",
       "offset": 2053,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
       "kind": "StringLiteral",
       "offset": 2149,
       "length": 34,
       "value": "\"SessionIDChangedNotificationName\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/FirebaseSessions.swift",
-      "kind": "StringLiteral",
-      "offset": 1118,
-      "length": 8,
-      "value": "\"FirebaseSessions.Sessions\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
       "kind": "StringLiteral",
       "offset": 1244,
       "length": 25,
       "value": "\"FirebaseSessionsEnabled\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
       "kind": "StringLiteral",
       "offset": 1311,
       "length": 25,
       "value": "\"FirebaseSessionsTimeout\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/LocalOverrideSettings.swift",
       "kind": "StringLiteral",
       "offset": 1383,
       "length": 29,
       "value": "\"FirebaseSessionsSampingRate\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Logger.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 773,
       "length": 20,
       "value": "\"[FirebaseSessions]\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Logger.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 825,
       "length": 13,
       "value": "\"I-SES000000\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "IntegerLiteral",
       "offset": 950,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "IntegerLiteral",
       "offset": 955,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "StringLiteral",
       "offset": 1001,
       "length": 18,
       "value": "\"sessions_enabled\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "StringLiteral",
       "offset": 1060,
       "length": 15,
       "value": "\"sampling_rate\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "StringLiteral",
       "offset": 1118,
       "length": 25,
       "value": "\"session_timeout_seconds\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "StringLiteral",
       "offset": 1185,
       "length": 16,
       "value": "\"cache_duration\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/RemoteSettings.swift",
       "kind": "StringLiteral",
       "offset": 1243,
       "length": 13,
       "value": "\"app_quality\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionGenerator.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionGenerator.swift",
       "kind": "StringLiteral",
       "offset": 1367,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
-      "kind": "StringLiteral",
-      "offset": 1061,
-      "length": 14,
-      "value": "\"FirebaseSessions.SessionDetails\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
       "kind": "IntegerLiteral",
       "offset": 1406,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
       "kind": "IntegerLiteral",
       "offset": 1425,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1406,
-      "length": 11,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Public\/SessionsSubscriber.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1425,
-      "length": 11,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/SessionStartEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1074,
-      "length": 17,
-      "value": "\"FirebaseSessions.SessionStartEvent\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
       "kind": "IntegerLiteral",
       "offset": 1956,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
       "kind": "StringLiteral",
       "offset": 2020,
       "length": 28,
       "value": "\"firebase-sessions-settings\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseSessions\/FirebaseSessions\/Sources\/Settings\/SettingsCacheClient.swift",
       "kind": "StringLiteral",
       "offset": 2078,
       "length": 29,

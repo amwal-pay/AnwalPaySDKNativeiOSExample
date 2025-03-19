@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "smart_auth",
+    "printedName": "smart_auth",
     "children": [
       {
         "kind": "Import",
@@ -36,7 +36,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -149,6 +149,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -201,20 +215,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/smart_auth-1.1.1\/ios\/Classes\/SwiftSmartAuthPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 207,
-      "length": 12,
-      "value": "\"smart_auth\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/smart_auth-1.1.1\/ios\/Classes\/SwiftSmartAuthPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 466,
-      "length": 6,
-      "value": "\"iOS \""
-    }
-  ]
+  "ConstValues": []
 }

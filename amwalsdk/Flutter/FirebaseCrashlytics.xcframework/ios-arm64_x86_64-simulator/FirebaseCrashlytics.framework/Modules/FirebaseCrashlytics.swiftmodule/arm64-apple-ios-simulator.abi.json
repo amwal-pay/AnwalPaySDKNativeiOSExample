@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "FirebaseCrashlytics",
+    "printedName": "FirebaseCrashlytics",
     "children": [
       {
         "kind": "Import",
@@ -103,6 +103,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -220,7 +236,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "RemoteConfigInterop",
-                "printedName": "FirebaseRemoteConfigInterop.RemoteConfigInterop",
+                "printedName": "any FirebaseRemoteConfigInterop.RemoteConfigInterop",
                 "usr": "c:@M@FirebaseRemoteConfigInterop@objc(pl)FIRRemoteConfigInterop"
               }
             ],
@@ -242,7 +258,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "RemoteConfigInterop",
-                    "printedName": "FirebaseRemoteConfigInterop.RemoteConfigInterop",
+                    "printedName": "any FirebaseRemoteConfigInterop.RemoteConfigInterop",
                     "usr": "c:@M@FirebaseRemoteConfigInterop@objc(pl)FIRRemoteConfigInterop"
                   }
                 ],
@@ -267,7 +283,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "RemoteConfigInterop",
-                    "printedName": "FirebaseRemoteConfigInterop.RemoteConfigInterop",
+                    "printedName": "any FirebaseRemoteConfigInterop.RemoteConfigInterop",
                     "usr": "c:@M@FirebaseRemoteConfigInterop@objc(pl)FIRRemoteConfigInterop"
                   }
                 ],
@@ -308,7 +324,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "CrashlyticsPersistenceLog",
-                "printedName": "FirebaseCrashlytics.CrashlyticsPersistenceLog",
+                "printedName": "any FirebaseCrashlytics.CrashlyticsPersistenceLog",
                 "usr": "c:@M@FirebaseCrashlytics@objc(pl)FIRCLSPersistenceLog"
               }
             ],
@@ -330,7 +346,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "CrashlyticsPersistenceLog",
-                    "printedName": "FirebaseCrashlytics.CrashlyticsPersistenceLog",
+                    "printedName": "any FirebaseCrashlytics.CrashlyticsPersistenceLog",
                     "usr": "c:@M@FirebaseCrashlytics@objc(pl)FIRCLSPersistenceLog"
                   }
                 ],
@@ -355,7 +371,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "CrashlyticsPersistenceLog",
-                    "printedName": "FirebaseCrashlytics.CrashlyticsPersistenceLog",
+                    "printedName": "any FirebaseCrashlytics.CrashlyticsPersistenceLog",
                     "usr": "c:@M@FirebaseCrashlytics@objc(pl)FIRCLSPersistenceLog"
                   }
                 ],
@@ -464,13 +480,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "RemoteConfigInterop",
-                "printedName": "FirebaseRemoteConfigInterop.RemoteConfigInterop",
+                "printedName": "any FirebaseRemoteConfigInterop.RemoteConfigInterop",
                 "usr": "c:@M@FirebaseRemoteConfigInterop@objc(pl)FIRRemoteConfigInterop"
               },
               {
                 "kind": "TypeNominal",
                 "name": "CrashlyticsPersistenceLog",
-                "printedName": "FirebaseCrashlytics.CrashlyticsPersistenceLog",
+                "printedName": "any FirebaseCrashlytics.CrashlyticsPersistenceLog",
                 "usr": "c:@M@FirebaseCrashlytics@objc(pl)FIRCLSPersistenceLog"
               }
             ],
@@ -594,6 +610,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -811,7 +841,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -839,7 +869,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -880,6 +910,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1259,7 +1303,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1287,7 +1331,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -1328,6 +1372,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1472,6 +1530,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1526,46 +1598,25 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCrashlytics\/Crashlytics\/Crashlytics\/Rollouts\/CrashlyticsRemoteConfigManager.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCrashlytics\/Crashlytics\/Crashlytics\/Rollouts\/CrashlyticsRemoteConfigManager.swift",
       "kind": "IntegerLiteral",
       "offset": 958,
       "length": 3,
       "value": "128"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCrashlytics\/Crashlytics\/Crashlytics\/Rollouts\/CrashlyticsRemoteConfigManager.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCrashlytics\/Crashlytics\/Crashlytics\/Rollouts\/CrashlyticsRemoteConfigManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1008,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCrashlytics\/Crashlytics\/Crashlytics\/Rollouts\/CrashlyticsRemoteConfigManager.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCrashlytics\/Crashlytics\/Crashlytics\/Rollouts\/CrashlyticsRemoteConfigManager.swift",
       "kind": "Array",
       "offset": 1099,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCrashlytics\/Crashlytics\/Crashlytics\/Rollouts\/CrashlyticsRemoteConfigManager.swift",
-      "kind": "StringLiteral",
-      "offset": 871,
-      "length": 30,
-      "value": "\"FirebaseCrashlytics.CrashlyticsRemoteConfigManager\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCrashlytics\/Crashlytics\/Crashlytics\/Rollouts\/EncodedRolloutAssignment.swift",
-      "kind": "StringLiteral",
-      "offset": 683,
-      "length": 20,
-      "value": "\"FirebaseCrashlytics.EncodedRolloutsState\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCrashlytics\/Crashlytics\/Crashlytics\/Rollouts\/EncodedRolloutAssignment.swift",
-      "kind": "StringLiteral",
-      "offset": 953,
-      "length": 24,
-      "value": "\"FirebaseCrashlytics.EncodedRolloutAssignment\""
     }
   ]
 }

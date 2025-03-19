@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "path_provider_foundation",
+    "printedName": "path_provider_foundation",
     "children": [
       {
         "kind": "Import",
@@ -56,7 +56,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -116,6 +116,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -170,312 +184,53 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 757,
-      "length": 91,
-      "value": "\"PigeonError(code: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 783,
-      "length": 1,
-      "value": "\", message: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 807,
-      "length": 7,
-      "value": "\"<nil>\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 815,
-      "length": 1,
-      "value": "\", details: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 839,
-      "length": 7,
-      "value": "\"<nil>\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 847,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 1294,
-      "length": 10,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 1303,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 1310,
-      "length": 20,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 1329,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 1336,
-      "length": 40,
-      "value": "\"Stacktrace: \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 1375,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
+      "filePath": "\/Users\/amrsaied\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1644,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
+      "filePath": "\/Users\/amrsaied\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1674,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
+      "filePath": "\/Users\/amrsaied\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1695,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
+      "filePath": "\/Users\/amrsaied\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1714,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
+      "filePath": "\/Users\/amrsaied\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1730,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
+      "filePath": "\/Users\/amrsaied\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1758,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1644,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1674,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1695,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1714,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1730,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1758,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1644,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1674,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1695,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1714,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1730,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1758,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1911,
-      "length": 3,
-      "value": "129"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2362,
-      "length": 3,
-      "value": "129"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
+      "filePath": "\/Users\/amrsaied\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
       "kind": "StringLiteral",
       "offset": 3631,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3693,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 3697,
-      "length": 26,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 3722,
-      "length": 5,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 3726,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 3811,
-      "length": 94,
-      "value": "\"dev.flutter.pigeon.path_provider_foundation.PathProviderApi.getDirectoryPath\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 3904,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4117,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 4474,
-      "length": 94,
-      "value": "\"dev.flutter.pigeon.path_provider_foundation.PathProviderApi.getContainerPath\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 4567,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4794,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/raghda\/.pub-cache\/hosted\/pub.dev\/path_provider_foundation-2.4.1\/darwin\/path_provider_foundation\/Sources\/path_provider_foundation\/PathProviderPlugin.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2709,
-      "length": 4,
-      "value": "true"
     }
   ]
 }

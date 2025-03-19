@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "FirebaseCoreInternal",
+    "printedName": "FirebaseCoreInternal",
     "children": [
       {
         "kind": "Import",
@@ -165,6 +165,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -378,6 +392,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -567,7 +595,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -634,6 +678,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -696,7 +756,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -721,7 +781,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -849,6 +909,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -1462,6 +1536,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -1546,438 +1634,123 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/_ObjC_HeartbeatController.swift",
-      "kind": "StringLiteral",
-      "offset": 763,
-      "length": 25,
-      "value": "\"FirebaseCoreInternal._ObjC_HeartbeatController\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/_ObjC_HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 755,
-      "length": 23,
-      "value": "\"FirebaseCoreInternal._ObjC_HeartbeatsPayload\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
       "kind": "IntegerLiteral",
       "offset": 869,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
-      "kind": "IntegerLiteral",
-      "offset": 982,
-      "length": 5,
-      "value": "86400"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
-      "kind": "IntegerLiteral",
-      "offset": 869,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
-      "kind": "IntegerLiteral",
-      "offset": 869,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
       "kind": "IntegerLiteral",
       "offset": 1167,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
       "kind": "Array",
       "offset": 2219,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
       "kind": "IntegerLiteral",
       "offset": 972,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
       "kind": "StringLiteral",
       "offset": 1279,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
       "kind": "IntegerLiteral",
       "offset": 1343,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsBundle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2473,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 3672,
-      "length": 3,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 3683,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 3746,
-      "length": 46,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 3765,
-      "length": 5,
-      "value": "\" error\/\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 3791,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsBundle.swift",
-      "kind": "Array",
-      "offset": 4659,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "IntegerLiteral",
       "offset": 1672,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
       "offset": 2254,
       "length": 12,
       "value": "\"heartbeats\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 2254,
-      "length": 12,
-      "value": "\"heartbeats\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
       "offset": 2585,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
       "offset": 4351,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
       "offset": 4406,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "IntegerLiteral",
       "offset": 4471,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
       "offset": 4933,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5007,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5018,
-      "length": 3,
-      "value": "\"_\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5055,
-      "length": 3,
-      "value": "\"+\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5066,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5103,
-      "length": 3,
-      "value": "\"=\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5114,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
       "offset": 5495,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5573,
-      "length": 3,
-      "value": "\"_\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5584,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5621,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5632,
-      "length": 3,
-      "value": "\"+\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5767,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 5799,
-      "length": 3,
-      "value": "\"=\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1920,
-      "length": 29,
-      "value": "\"com.heartbeat.storage.\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1948,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatStorage.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatStorage.swift",
       "kind": "Dictionary",
       "offset": 2158,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "StringLiteral",
-      "offset": 1232,
-      "length": 62,
-      "value": "\"Out-of-bounds push at index \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "StringLiteral",
-      "offset": 1273,
-      "length": 2,
-      "value": "\" to ring buffer with\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "StringLiteral",
-      "offset": 1307,
-      "length": 27,
-      "value": "\"end index of \""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "StringLiteral",
-      "offset": 1332,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1992,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2499,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2930,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3106,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/RingBuffer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3197,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Storage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3154,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
       "kind": "StringLiteral",
       "offset": 758,
       "length": 26,
       "value": "\"google-heartbeat-storage\""
     },
     {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
+      "filePath": "\/Users\/amrsaied\/Documents\/Flutter\/Amwal\/mobile\/amwal_pay_sdk_amwal\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
       "kind": "StringLiteral",
       "offset": 905,
       "length": 30,
       "value": "\"com.google.heartbeat.storage\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 1459,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 1470,
-      "length": 3,
-      "value": "\"_\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 1503,
-      "length": 27,
-      "value": "\"heartbeats-\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 1529,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1634,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1702,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 2367,
-      "length": 18,
-      "value": "\"heartbeats-\""
-    },
-    {
-      "filePath": "\/Users\/raghda\/Documents\/FlutterProjects\/amwal_pay_sdk\/amwal_sdk_flutter_module\/.ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 2384,
-      "length": 1,
-      "value": "\"\""
     }
   ]
 }

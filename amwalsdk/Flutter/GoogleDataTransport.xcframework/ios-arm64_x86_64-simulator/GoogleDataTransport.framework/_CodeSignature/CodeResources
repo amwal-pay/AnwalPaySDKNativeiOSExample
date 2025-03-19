@@ -6,7 +6,7 @@
 	<dict>
 		<key>GoogleDataTransport_Privacy.bundle/Info.plist</key>
 		<data>
-		3MX5b8U1aARlUeQr7YitYgUzla4=
+		aXw3uW2yn4Y+vwJiEpQDG1UGxUE=
 		</data>
 		<key>GoogleDataTransport_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		D8bCSfRyYub7TKWpK1z/E3DVVNQ=
+		70yzMntsnOJYpVUixLAEuy4aMTw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,11 +71,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3MX5b8U1aARlUeQr7YitYgUzla4=
+			aXw3uW2yn4Y+vwJiEpQDG1UGxUE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Mljx4bcx+Rq1fdJ4HHr7WJXfqIbfyrgnqHrfpbq6Tr8=
+			8M1dPQaCPKEtndjS1nFVCLu5mTegn0UXQKsL9TG9RnU=
 			</data>
 		</dict>
 		<key>GoogleDataTransport_Privacy.bundle/PrivacyInfo.xcprivacy</key>
