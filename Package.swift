@@ -9,6 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "amwalsdk",
+            type: .static,
             targets: ["amwalsdk"]
         )
     ],
