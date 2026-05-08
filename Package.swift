@@ -9,14 +9,13 @@ let package = Package(
     products: [
         .library(
             name: "amwalsdk",
-            type: .static,
             targets: ["amwalsdk"]
         )
     ],
     targets: [
         .target(
             name: "amwalsdk",
-            dependencies: ["App", "Flutter", "FlutterPluginRegistrant", "amwal_pay_sdk", "path_provider_foundation", "pay_ios", "share_plus", "shared_preferences_foundation", "webview_flutter_wkwebview"],
+            dependencies: ["amwal_pay_sdk", "App", "Flutter", "FlutterPluginRegistrant", "pay_ios", "share_plus", "shared_preferences_foundation", "webview_flutter_wkwebview"],
             path: "amwalsdk",
             exclude: ["amwalsdk.podspec", "amwalsdk.docc", "Readme.md", "LICENSE", "amwalsdk.h"],
             sources: [
@@ -33,49 +32,44 @@ let package = Package(
             publicHeadersPath: "include"
         ),
         .binaryTarget(
+            name: "amwal_pay_sdk",
+            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.89/amwalsdk-spm.zip",
+            checksum: "4faa449f64bb5135487741567e7911afc792e466aa437dbfceedbe4c5a6190d5"
+        ),
+        .binaryTarget(
             name: "App",
-            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.88/amwalsdk-spm.zip",
-            checksum: "f70bdb85777962782b34076ccfd16016798cab9d773a0b346a8169b745b269e5"
+            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.89/amwalsdk-spm.zip",
+            checksum: "4faa449f64bb5135487741567e7911afc792e466aa437dbfceedbe4c5a6190d5"
         ),
         .binaryTarget(
             name: "Flutter",
-            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.88/amwalsdk-spm.zip",
-            checksum: "f70bdb85777962782b34076ccfd16016798cab9d773a0b346a8169b745b269e5"
+            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.89/amwalsdk-spm.zip",
+            checksum: "4faa449f64bb5135487741567e7911afc792e466aa437dbfceedbe4c5a6190d5"
         ),
         .binaryTarget(
             name: "FlutterPluginRegistrant",
-            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.88/amwalsdk-spm.zip",
-            checksum: "f70bdb85777962782b34076ccfd16016798cab9d773a0b346a8169b745b269e5"
-        ),
-        .binaryTarget(
-            name: "amwal_pay_sdk",
-            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.88/amwalsdk-spm.zip",
-            checksum: "f70bdb85777962782b34076ccfd16016798cab9d773a0b346a8169b745b269e5"
-        ),
-        .binaryTarget(
-            name: "path_provider_foundation",
-            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.88/amwalsdk-spm.zip",
-            checksum: "f70bdb85777962782b34076ccfd16016798cab9d773a0b346a8169b745b269e5"
+            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.89/amwalsdk-spm.zip",
+            checksum: "4faa449f64bb5135487741567e7911afc792e466aa437dbfceedbe4c5a6190d5"
         ),
         .binaryTarget(
             name: "pay_ios",
-            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.88/amwalsdk-spm.zip",
-            checksum: "f70bdb85777962782b34076ccfd16016798cab9d773a0b346a8169b745b269e5"
+            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.89/amwalsdk-spm.zip",
+            checksum: "4faa449f64bb5135487741567e7911afc792e466aa437dbfceedbe4c5a6190d5"
         ),
         .binaryTarget(
             name: "share_plus",
-            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.88/amwalsdk-spm.zip",
-            checksum: "f70bdb85777962782b34076ccfd16016798cab9d773a0b346a8169b745b269e5"
+            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.89/amwalsdk-spm.zip",
+            checksum: "4faa449f64bb5135487741567e7911afc792e466aa437dbfceedbe4c5a6190d5"
         ),
         .binaryTarget(
             name: "shared_preferences_foundation",
-            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.88/amwalsdk-spm.zip",
-            checksum: "f70bdb85777962782b34076ccfd16016798cab9d773a0b346a8169b745b269e5"
+            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.89/amwalsdk-spm.zip",
+            checksum: "4faa449f64bb5135487741567e7911afc792e466aa437dbfceedbe4c5a6190d5"
         ),
         .binaryTarget(
             name: "webview_flutter_wkwebview",
-            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.88/amwalsdk-spm.zip",
-            checksum: "f70bdb85777962782b34076ccfd16016798cab9d773a0b346a8169b745b269e5"
+            url: "https://github.com/amwal-pay/AnwalPaySDKNativeiOSExample/releases/download/v1.1.89/amwalsdk-spm.zip",
+            checksum: "4faa449f64bb5135487741567e7911afc792e466aa437dbfceedbe4c5a6190d5"
         ),
     ]
 )
